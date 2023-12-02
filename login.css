@@ -1,0 +1,102 @@
+body {
+  background-color: rgba(135, 207, 235, 0.762);
+}
+div {
+  position: absolute;
+  top: 28%;
+  left: 35%;
+  width: 20%;
+  height: 40%;
+  border: 4px dotted skyblue;
+  border-radius: 100px 15px;
+  padding: 2%;
+  outline: 9px solid rgb(227, 230, 231);
+  background-color: snow;
+  box-shadow: 50px 50px 75px 20px black;
+  transition-duration: 1s;
+}
+h1 {
+  text-align: center;
+  width: 98%;
+  border: 2px dotted skyblue;
+  border-radius: 40px;
+  transition-duration: 1s;
+}
+.email {
+  width: 90%;
+  height: 10%;
+  border: 2px dotted skyblue;
+  border-radius: 40px;
+  margin: 3px;
+  text-align: center;
+  padding: 5px;
+  font-size: 100%;
+  transition: box-shadow 0.5s 0s linear;
+}
+.pass {
+  width: 90%;
+  height: 10%;
+  border: 2px dotted skyblue;
+  border-radius: 40px;
+  margin: 3px;
+  text-align: center;
+  padding: 5px;
+  font-size: 100%;
+  transition: box-shadow 0.5s 0s linear;
+}
+.log {
+  width: 20%;
+  border: 3px dotted skyblue;
+  border-radius: 30px;
+  margin: 5px;
+  text-align: center;
+  padding: 5px;
+  background-color: white;
+  position: relative;
+  left: 35%;
+  transition: box-shadow 0.5s 0s linear;
+}
+a {
+  text-decoration: none;
+  position: relative;
+  left: 25%;
+  font-size: larger;
+  color: black;
+}
+p {
+  position: relative;
+  left: 39%;
+  top: 2%;
+  font-size: 40px;
+  border: 2px dotted skyblue;
+  border-radius: 40px;
+  padding: 15px;
+  width: 15%;
+  text-align: center;
+  box-shadow: 0px 0px 20px 15px rgb(240, 240, 240);
+  transition-duration: 1s;
+}
+.email:focus {
+  font-size: smaller;
+}
+::selection {
+  background-color: blueviolet;
+  color: white;
+}
+.pass:focus {
+  font-size: smaller;
+}
+.email:hover {
+  box-shadow: 0px 0px 30px 20px skyblue;
+}
+.pass:hover {
+  box-shadow: 0px 0px 30px 20px skyblue;
+}
+.log:hover {
+  box-shadow: 0px 0px 30px 20px skyblue;
+}
+div:hover {
+  .email {
+    transform: rotate(360deg);
+  }
+}
